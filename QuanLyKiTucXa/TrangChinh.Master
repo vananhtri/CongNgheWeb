@@ -1,0 +1,104 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="TrangChinh.master.cs" Inherits="QuanLyKiTucXa.TrangChinh" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>QUẢN LÝ KÍ TÚC XÁ</title>
+    <link href="CSS/TrangChinh.css" rel="stylesheet" media="screen" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="layout">
+        <div class="header">
+            <div id="headerLeft">
+                <img src="Images/Masterpage/header.png" />
+            </div>
+            <div id="headerRight">
+                <div class="thongtin">
+                    <img src="Images/Icon/gmail.png" />
+                    <a href="#">bangiamhieu@hufi.edu.vn </a>
+                </div>
+                <div class="thongtin">
+                    <img src="Images/Icon/phone.png" />
+                    <a href="#">0899699999 </a>
+                </div>
+                <div class="thongtin">
+                    <img src="Images/Icon/DangNhap.png" alt="" />
+                    <a href="DangNhap.aspx">Đăng nhập</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="menu">
+            <nav>
+                <a href="GioiThieu.aspx">GIỚI THIỆU</a>
+                <a href="ThongBao.aspx">THÔNG BÁO</a>
+                <a href="BanDo.aspx">BẢN ĐỒ</a>
+                <a href="#" class="icon-home"></a>
+                <a href="DangKiPhong.aspx">ĐĂNG KÍ</a>
+                <a href="SucKhoe.aspx">SỨC KHỎE</a>
+                <a href="LienHe.aspx">LIÊN HỆ</a>
+
+
+            </nav>
+        </div>
+        <div class="conten" style="background:#fbfbfb">
+            <div id="contenLeft" class="col-md-5">
+                <div id="contenLeftTop" class="col-md-12">
+
+                    <p style="text-align: center; font-size: 16px; color: #ffffff; padding-top: 10px;">
+                        DANH MỤC MENU
+                    </p>
+
+                    <ul class="col-md-10">
+
+                        <li class="col-sm-12"><a href="HoatDong.aspx">Hoạt động của kí túc xá</a></li>
+                        <li class="col-sm-12"><a href="NoiQuy.aspx">Nội quy- quy chế</a></li>
+                        <li class="col-sm-12"><a href="ThanhToan.aspx">Thanh toán</a></li>
+                        <li class="col-sm-12"><a href="DanhSachPhongTrong.aspx">Đăng kí ở kí túc xá</a></li>
+                        <li class="col-sm-12"><a href="ThongTinSinhVien.aspx">Thông tin sinh viên</ap></li>
+                        <li class="col-sm-12"><a href="BangGia.aspx">Bảng giá</a></li>
+                    </ul>
+                </div>
+                <div id="contenLeftMiddle">
+                    <p style="text-align: center; font-size: 20px; font-weight: bold; color: #ffffff; padding-top: 10px;">TIÊU ĐIỂM </p>
+                    <div class="divimg1 col-md-12">
+                        <a href="https://www.youtube.com/watch?v=uPdNhTtxP8k">
+                            <img src="Images/KhungTrai/TanSinhVien.png" /></a>
+                    </div>
+                    <div class="divimg2 ">
+                        <a href="SucKhoe.aspx">
+                            <img src="Images/KhungTrai/SucKhoe.png" /></a>
+                    </div>
+                </div>
+                <div id="contenLeftBottom" class="col-md-12">
+                    <p style="text-align: center; font-size: 20px; font-weight: bold; color: #ffffff; padding-top: 10px;">VIDEO </p>
+                    <div class="video">
+                        <video src="Video/GioiThieuHufi.mp4" controls="controls"></video>
+                    </div>
+
+                </div>
+            </div>
+            <div id="contenRight" class="col-md-7">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div class="CuoiTrag">
+            <div id="CuoiLeft">
+                <img src="Images/Masterpage/footer.png" />
+            </div>
+            <div id="CuoiRight" style="background-color: #006fd5">
+                <a href="https://www.facebook.com/TuyensinhHUFI/" class="icon-facebook">
+                    <img src="Images/Icon/FaceBook.png" /></a>
+                <a href="https://www.youtube.com/watch?v=6-mbo2siE3I&t=108s">
+                    <img src="Images/Icon/Youtube.png" /></a>
+                <a href="http://sinhvien.hufi.edu.vn/">
+                    <img src="Images/Icon/WebSite.png" /></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

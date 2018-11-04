@@ -1,0 +1,257 @@
+﻿#divp {
+    width: 100%;
+    padding-top: 5px;
+    border-radius: 5px;
+    height: auto;
+}
+
+    #divp img {
+        width: 100%;
+        height:300px;
+    }
+
+#divtable {
+    max-width: 678px;
+    position: relative;
+    display: flex;
+    margin: auto;
+}
+
+    #divtable table {
+        width: 50%;
+        margin-left: 153px;
+        border-radius: 5px;
+    }
+
+    #divtable td {
+        color: #0906f6;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+#divPhong {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+}
+
+#divTimKiem {
+    width: 97%;
+    margin-left: 5px;
+    height: 80px;
+    padding-top: 10px;
+    border-radius: 5px;
+    padding-left: 20px;
+    background-color: #0308fb;
+}
+
+#divDSPhong {
+    width: 100%;
+    height: auto;
+    padding-left: 20px;
+}
+
+    #divDSPhong table {
+        padding-left: 35px;
+        padding-top: 20px;
+    }
+
+#divImageDangKi {
+    width: 100%;
+    padding-top: 17px;
+    padding-left: 5px;
+    border-radius: 5px;
+    height: auto;
+}
+
+    #divImageDangKi img {
+        width: 99%;
+        height: 360px;
+    }
+
+#divDangKi {
+    max-width: 800px;
+    padding-top: 70px;
+    padding-left: 200px;
+    position: relative;
+    display: flex;
+    margin: auto;
+}
+
+#divCTPhong {
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+#Image {
+    width: 30%;
+    height: auto;
+    float: left;
+    padding-top: 20px;
+}
+
+#Table {
+    width: 70%;
+    height: auto;
+    float: right
+}
+
+
+#divThongBao {
+    width: 100%;
+    margin: auto;
+}
+
+    #divThongBao ul {
+        width: 95%;
+        padding-left: 50px;
+        padding-top: 5px;
+        border-radius: 5px;
+    }
+
+    #divThongBao h2 {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+#divNoiQuy {
+    width: 100%;
+    margin-left: 15px;
+    font-size: 19px;
+    padding-top: 5px;
+    border-radius: 5px;
+}
+
+    #divNoiQuy h2 {
+        text-align: center;
+        color: #0906f6;
+    }
+
+#divThongTin {
+    width: 100%;
+    height: 275px;
+}
+
+    #divThongTin h2 {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+#TTImage {
+    width: 30%;
+    margin-left: 40px;
+    margin-top: 10px;
+    height: auto;
+    float: left;
+}
+
+    #TTImage table {
+        width: 100%;
+        font-size: 20px;
+        height: auto;
+    }
+
+#TTCaNhan {
+    width: 60%;
+    height: auto;
+    margin-top: 10px;
+    font-size: 20px;
+    float: right;
+}
+
+#divTTCapNhat {
+    width: 100%;
+    height: auto;
+    padding-top: 5px;
+}
+
+    #divTTCapNhat h2 {
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    #divTTCapNhat table {
+        height: auto;
+        font-size: 20px;
+        margin-left: 250px;
+        padding-top: 50px;
+    }
+
+    #divTTCapNhat text {
+        width: 240px;
+    }
+
+#GioiThieu {
+    width: 100%;
+    height: auto;
+    font-size: 24px;
+    padding-top: 60px;
+    padding-left: 60px;
+}
+
+    #GioiThieu h2 {
+        text-align: center;
+        color: #0906f6;
+    }
+
+#divLienHe {
+    width: 100%;
+    padding-top: 17px;
+    padding-left: 5px;
+    border-radius: 5px;
+    height: auto;
+}
+    
+#LienHeBottom {
+    width: 100%;
+    height: auto;
+    padding-top: 5px;
+}
+
+#divLienHe table {
+    padding-left: 90px;
+    padding-top: 30px;
+}
+
+#ThanhToan {
+    width: 100%;
+    font-size: 19px;
+}
+
+    #ThanhToan table {
+        width: 100%;
+        padding-left: 145px;
+        padding-top: 15px;
+    }
+
+    #ThanhToan h2 {
+        text-align: center;
+        color: #0906f6;
+        border-radius: 5px;
+    }
+
+#ThanhToan1 {
+    width: 100%;
+    font-size: 19px;
+    padding-top: 100px;
+}
+
+    #ThanhToan1 h2 {
+        text-align: center;
+        color: #0906f6;
+        border-radius: 5px;
+    }
+
+    #ThanhToan1 table {
+        width: 100%;
+        padding-left: 145px;
+        padding-top: 15px;
+    }
+    #BangGia{
+        width:100%;
+        height:auto;
+        padding-top:100px;
+        padding-left:260px;
+    }

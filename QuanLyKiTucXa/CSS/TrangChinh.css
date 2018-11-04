@@ -1,0 +1,239 @@
+﻿body {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.layout {
+    width: 100%;
+    height: auto;
+}
+
+.header {
+    width: 100%;
+    height: 120px;
+}
+
+#headerLeft {
+    width: 80%;
+    height: 120px;
+    float: left;
+}
+
+    #headerLeft img {
+        width: 100%;
+        height: 120px;
+    }
+
+#headerRight {
+    width: 20%;
+    height: 120px;
+    float: right;
+    opacity: 1;
+    padding-top: 10px;
+}
+
+.thongtin {
+    display: flex;
+}
+
+    .thongtin a {
+        margin-left: 6px;
+        margin-top: 4px;
+        font-style: italic;
+        font-size: 14px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 200;
+        color: #000000;
+        text-align: center;
+        padding-left: 10px;
+        text-decoration: none;
+    }
+
+    .thongtin img {
+        width: 16px;
+        height: 21px;
+    }
+
+.menu {
+    width: 100%;
+    height: 40px;
+    background: #1674bb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .menu nav {
+        text-align: center;
+    }
+
+        .menu nav a {
+            text-decoration: none;
+            color: #ffffff;
+            padding: 0 12px;
+        }
+
+            .menu nav a:hover {
+                color: #f110ec;
+            }
+
+.icon-home {
+    background: url(Image/Icon/home.png) center;
+}
+
+.conten {
+    
+    height: 1080px;
+    padding-bottom: 10px;
+    background: #fbfbfb;
+}
+
+#contenLeft {
+    width: 25%;
+    height: 900px;
+    float: left;
+}
+
+#contenLeftTop {
+    width: 100%;
+    height: 310px;
+    margin-top: 10px;
+    background: #1e20a8;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#contenLeft ul {
+    background: #1e20a8;
+    width: 80%;
+    padding: 0;
+    list-style-type: none;
+    margin-left: 35px;
+}
+
+#contenLeft li {
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #ffffff;
+}
+
+    #contenLeft li a {
+        text-decoration: none;
+        color: #ffffff;
+        display: block;
+        text-align: center;
+    }
+
+    #contenLeft li:hover {
+        background: #12b6b6;
+    }
+
+#contenLeftMiddle {
+    width: 100%;
+    padding-bottom: 10px;
+    background: #1e20a8;
+    margin-top: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.divimg1 {
+    display: flex;
+    justify-content: center;
+}
+
+    .divimg1 a {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+        .divimg1 a img {
+            width: 100%;
+        }
+
+.divimg2 {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+    .divimg2 a {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .divimg2 img {
+        width: 100%;
+    }
+
+#contenLeftBottom {
+    width: 100%;
+    padding-bottom: 15px;
+    background: #1e20a8;
+    margin-top: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+    #contenLeftBottom .video {
+        padding: 0 12px;
+    }
+
+    #contenLeftBottom video {
+        width: 100%;
+    }
+
+#contenRight {
+    width: 75%;
+    height: 900px;
+    float: right;
+}
+
+    #contenRight container1 {
+        position: relative;
+        width: 100%;
+        height: 350px;
+        border-radius: 5px;
+        border: 1px solid red;
+        overflow: hidden;
+        margin-top: -58px;
+        vertical-align: baseline;
+    }
+
+.CuoiTrag {
+    width: 100%;
+    height: 120px;
+}
+
+#CuoiLeft {
+    width: 70%;
+    height: 120px;
+    float: left;
+}
+
+    #CuoiLeft img {
+        width: 100%;
+        height: 120px;
+    }
+
+#CuoiRight {
+    width: 30%;
+    height: 120px;
+    display: flex;
+    float: right;
+    justify-content: center;
+    background-image: url(Image/ChanTrang/Background1.png);
+    align-items: center;
+}
+
+
+    #CuoiRight .icon-facebook {
+        padding: 0 10px;
+    }
